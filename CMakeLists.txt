@@ -181,6 +181,11 @@ set(ENGINE_SOURCES
 	${ALICE_SRC_DIR}/Rendering/ShaderCode/TrailEffectShader.cpp
 	${ALICE_SRC_DIR}/Rendering/ComputeEffectSystem.cpp
 
+	${ALICE_SRC_DIR}/Editor/Inspectors/EditorInspectors.cpp
+	${ALICE_SRC_DIR}/Editor/Inspectors/RttrAutoInspector.cpp
+	${ALICE_SRC_DIR}/Editor/Inspectors/PhysicsInspectors.cpp
+	${ALICE_SRC_DIR}/Editor/Inspectors/FixedLayoutInspectors.cpp
+	${ALICE_SRC_DIR}/Core/SceneSerializationHelpers.cpp
 	${ALICE_SRC_DIR}/UI/UIGaugeBar.cpp
 )
 
@@ -339,6 +344,7 @@ set(ENGINE_HEADERS
 	${ALICE_SRC_DIR}/Components/ComputeEffectComponent.h
 	${ALICE_SRC_DIR}/Rendering/ComputeEffectSystem.h
 	${ALICE_SRC_DIR}/Rendering/ShaderCode/ComputeEffectShader.h
+	${ALICE_SRC_DIR}/Core/SceneSerializationHelpers.h
 
 
 	${ALICE_SRC_DIR}/UI/UI_ImageComponent.h
